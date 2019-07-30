@@ -10,7 +10,7 @@ int main(){
     printf("\nSQL Script Generator");
     printf("\n\nQual sera o nome da tabela? ");
     fflush(stdin);
-	  gets(nome_tabela);
+    gets(nome_tabela);
     printf("%s tera quantos campos? ", nome_tabela);
     scanf("%i", &quant_campos);
     char arrayCampos[quant_campos][20];
