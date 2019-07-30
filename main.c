@@ -20,7 +20,7 @@ int main(){
         printf("Nome do campo %i: ",i+1);
         scanf("%s", &arrayCampos[i]);
         printf("Selecione o tipo do campo %s: ", arrayCampos[i]);
-        printf("\n1-VARCHAR\n2-INT\n3-FLOAT\n4-DATE\n5-Outro\n");
+        printf("\n1-VARCHAR(50)\n2-INT\n3-FLOAT\n4-DATE\n5-Outro\n");
         scanf("%i", &opcaoTipo);
         switch(opcaoTipo){
             case 1:
