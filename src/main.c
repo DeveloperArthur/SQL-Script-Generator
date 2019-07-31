@@ -4,7 +4,7 @@
 
 int main(){
     FILE *arquivo;
-    arquivo = fopen("tables.sql", "w");
+    arquivo = fopen("table.sql", "w");
     char nome_tabela[20];
     int quant_campos=0, opcaoTipo=0, quantCaracteres=0;
     printf("\nSQL Script Generator");
@@ -51,8 +51,8 @@ int main(){
         fprintf(arquivo, "%s %s,\n", arrayCampos[i], arrayTiposCampos[i]);
     }
     fprintf(arquivo, ");");
-    printf("Arquivo tables.sql gerado com sucesso!\nAssim que gerado, o arquivo é salvo automaticamente na mesma pasta onde se encontra o programa");
+    printf("Arquivo table.sql gerado com sucesso!\nAssim que gerado, o arquivo é salvo automaticamente na mesma pasta onde se encontra o programa");
     system("cd downloads");
-    system("tables.sql");
+    system("table.sql");
     system("pause");
 }
