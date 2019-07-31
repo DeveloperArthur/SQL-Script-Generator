@@ -54,4 +54,5 @@ int main(){
     printf("Arquivo tables.sql gerado com sucesso!\nAssim que gerado, o arquivo é salvo automaticamente na mesma pasta onde se encontra o programa");
     system("cd downloads");
     system("tables.sql");
+    system("pause");
 }
