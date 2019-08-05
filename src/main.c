@@ -51,7 +51,7 @@ int main(){
         fprintf(arquivo, "%s %s,\n", arrayCampos[i], arrayTiposCampos[i]);
     }
     fprintf(arquivo, ");");
-    printf("Arquivo table.sql gerado com sucesso!\nAssim que gerado, o arquivo é salvo automaticamente na mesma pasta onde se encontra o programa");
+    printf("Arquivo table.sql gerado com sucesso!\nAssim que gerado, o arquivo eh salvo automaticamente na mesma pasta onde se encontra o programa\n\n");
     system("cd downloads");
     system("table.sql");
     system("pause");
